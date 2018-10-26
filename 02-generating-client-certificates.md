@@ -1,10 +1,10 @@
-> Go inside the directory
+##### Go inside the directory
 
 ```
 cd ~/kthw
 ```
 
-> Admin Client certificate:
+##### Admin Client certificate:
 
 ```
 {
@@ -38,7 +38,7 @@ cfssl gencert \
 }
 ```
 
-> Kubelet Client certificates. Be sure to enter your actual cloud server values for all four of the variables at the top:
+##### Kubelet Client certificates. Be sure to enter your actual cloud server values for all four of the variables at the top:
 
 ```
 WORKER0_HOST=<Public hostname of your first worker node cloud server>
@@ -103,7 +103,7 @@ cfssl gencert \
 
 }
 ```
-> Controller Manager Client certificate:
+##### Controller Manager Client certificate:
 
 ```
 {
@@ -137,7 +137,7 @@ cfssl gencert \
 }
 ```
 
-> Kube Proxy Client certificate:
+##### Kube Proxy Client certificate:
 
 ```
 {
@@ -171,7 +171,7 @@ cfssl gencert \
 }
 ```
 
-> Kube Scheduler Client Certificate:
+##### Kube Scheduler Client Certificate:
 
 ```
 {
