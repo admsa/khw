@@ -1,7 +1,7 @@
-### Step 1
-> cd ~/kthw
 
-### Step 2
+`cd ~/kthw`
+
+> Generate service account certificate
 ```
 {
 
