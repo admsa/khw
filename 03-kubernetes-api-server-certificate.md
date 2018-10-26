@@ -1,16 +1,10 @@
-### Step 1
-```
-cd ~/kthw
-```
 
-### Step 2
+`cd ~/kthw`
 
 ```
 CERT_HOSTNAME=10.32.0.1,<controller node 1 Private IP>,<controller node 1 hostname>,<controller node 2 Private IP>,<controller node 2 hostname>,<API load balancer Private IP>,<API load balancer hostname>,127.0.0.1,localhost,kubernetes.default
 ```
 
-
-### Step 3
 ```
 {
 
