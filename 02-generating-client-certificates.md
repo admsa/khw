@@ -36,6 +36,7 @@ cfssl gencert \
 }
 ```
 
+`-----------------------------------------------------------------------------`
 > Kubelet Client certificates. Be sure to enter your actual cloud server values for all four of the variables at the top:
 
 ```
@@ -102,6 +103,7 @@ cfssl gencert \
 }
 ```
 
+`-----------------------------------------------------------------------------`
 > Controller Manager Client certificate:
 
 ```
@@ -136,6 +138,7 @@ cfssl gencert \
 }
 ```
 
+`-----------------------------------------------------------------------------`
 > Kube Proxy Client certificate:
 
 ```
@@ -170,6 +173,7 @@ cfssl gencert \
 }
 ```
 
+`-----------------------------------------------------------------------------`
 > Kube Scheduler Client Certificate:
 
 ```
