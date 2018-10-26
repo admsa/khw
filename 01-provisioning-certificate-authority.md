@@ -1,4 +1,4 @@
-> Use this command to generate the certificate authority. Include the opening and closing curly braces to run this entire block as a single command.
+Use this command to generate the certificate authority. Include the opening and closing curly braces to run this entire block as a single command.
 
 ```
 {
