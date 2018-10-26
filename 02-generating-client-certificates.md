@@ -1,7 +1,5 @@
 `cd ~/kthw`
 
-`-----------------------------------------------------------------------------`
-
 > Admin Client certificate:
 
 ```
@@ -36,7 +34,6 @@ cfssl gencert \
 }
 ```
 
-`-----------------------------------------------------------------------------`
 > Kubelet Client certificates. Be sure to enter your actual cloud server values for all four of the variables at the top:
 
 ```
@@ -138,7 +135,6 @@ cfssl gencert \
 }
 ```
 
-`-----------------------------------------------------------------------------`
 > Kube Proxy Client certificate:
 
 ```
@@ -173,7 +169,6 @@ cfssl gencert \
 }
 ```
 
-`-----------------------------------------------------------------------------`
 > Kube Scheduler Client Certificate:
 
 ```
