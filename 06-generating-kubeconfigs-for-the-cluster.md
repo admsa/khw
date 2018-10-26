@@ -1,5 +1,6 @@
 > Create an environment variable to store the address of the Kubernetes API, and set it to the private IP of your load balancer cloud server
-`KUBERNETES_ADDRESS=<load balancer private ip>`
+
+```KUBERNETES_ADDRESS=<load balancer private ip>```
 
 > Generate a kubelet kubeconfig for each worker node:
 ```
