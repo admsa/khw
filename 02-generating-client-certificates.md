@@ -1,9 +1,11 @@
+### Step 1
 > Go inside the directory
 
 ```
 cd ~/kthw
 ```
 
+### Step 2
 > Admin Client certificate:
 
 ```
@@ -38,6 +40,7 @@ cfssl gencert \
 }
 ```
 
+### Step 3
 > Kubelet Client certificates. Be sure to enter your actual cloud server values for all four of the variables at the top:
 
 ```
@@ -104,6 +107,7 @@ cfssl gencert \
 }
 ```
 
+### Step 4
 > Controller Manager Client certificate:
 
 ```
@@ -138,6 +142,7 @@ cfssl gencert \
 }
 ```
 
+### Step 5
 > Kube Proxy Client certificate:
 
 ```
@@ -172,6 +177,7 @@ cfssl gencert \
 }
 ```
 
+### Step 6
 > Kube Scheduler Client Certificate:
 
 ```
