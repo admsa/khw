@@ -1,9 +1,13 @@
+### Step 1
+
 > Create directory where to store the certificates.
 
 ```
 mkdir ~/kthw
 cd ~/kthw
 ```
+
+### Step 2
 
 > Use this command to generate the certificate authority. Include the opening and closing curly braces to run this entire block as a single command.
 
